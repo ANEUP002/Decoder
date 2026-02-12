@@ -1,5 +1,5 @@
 
-# 🧠 GPT From Scratch — PyTorch
+#  GPT From Scratch — PyTorch
 
 ### Building a GPT-style language model from first principles  
 **Architecture • Training • Inference • Generation**
@@ -8,7 +8,7 @@ Inspired by **Andrej Karpathy’s “GPT from scratch / nanoGPT” videos**
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository contains my **end-to-end implementation of a GPT-style language model** using **PyTorch**, built entirely **from scratch**.
 
@@ -21,7 +21,7 @@ Everything in this repository — the model, training loop, optimizer setup, and
 
 ---
 
-## ✨ What This Project Includes
+##  What This Project Includes
 
 - GPT architecture implemented from first principles  
 - Causal self-attention with autoregressive masking  
@@ -42,7 +42,7 @@ Everything in this repository — the model, training loop, optimizer setup, and
 
 ---
 
-## 🧩 Model Architecture
+##  Model Architecture
 
 This implementation closely follows **GPT-2 design decisions**, with an emphasis on clarity and correctness.
 
@@ -61,7 +61,7 @@ LayerNorm → MLP (4× expansion + GELU) → Residual
 
 ---
 
-## 🏋️ Training
+##  Training
 
 The model was trained on **Shakespeare text**, tokenized using **GPT-2 BPE via `tiktoken`**.
 
@@ -83,7 +83,7 @@ The training loop mirrors real-world LLM pipelines, including:
 
 ---
 
-## ✍️ Inference & Text Generation
+##  Inference & Text Generation
 
 Text generation is implemented using a fully manual **autoregressive decoding loop**.
 
@@ -107,7 +107,7 @@ My child, and hast appointed
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - How causal self-attention enforces autoregressive generation  
 - Why pre-norm Transformers train more stably  
@@ -131,7 +131,7 @@ I followed his philosophy of **minimal, readable, and correct code**, while impl
 
 ---
 
-## 📌 Final Notes
+##  Final Notes
 
 This project was built as a **serious learning exercise**, structured to reflect **real ML engineering practices**.
 
